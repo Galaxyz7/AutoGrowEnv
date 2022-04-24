@@ -1,5 +1,7 @@
+//https://www.instructables.com/Raspberry-Pi-Arduino-Serial-Communication/
+
 char dataString[50] = {0}; //this is just a test for connectivity 
-int a =0;                  //must change char to get value from sensors
+int a =0;                  //must change char to get value from sensors see DOC SensorInfoXS.ino
 
 void setup() {
 Serial.begin(9600);              //Starting serial communication

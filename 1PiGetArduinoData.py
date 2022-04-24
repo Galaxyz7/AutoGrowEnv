@@ -1,3 +1,5 @@
+#https://www.instructables.com/Raspberry-Pi-Arduino-Serial-Communication/
+
 import serial
 
 ser = serial.Serial('/dev/ttyACM0',9600)
