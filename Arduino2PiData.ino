@@ -1,5 +1,5 @@
-char dataString[50] = {0};
-int a =0; 
+char dataString[50] = {0}; //this is just a test for connectivity 
+int a =0;                  //must change char to get value from sensors
 
 void setup() {
 Serial.begin(9600);              //Starting serial communication
